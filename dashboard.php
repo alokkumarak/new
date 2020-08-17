@@ -17,11 +17,11 @@ include_once 'session.php';
     <?php else: ?>
 
     <?php endif ?>
-    <button class="color"><h2 ><a href="logout.php"> Logout</a></h2></button>
+    <button class="color"><h2 ><a href="logout.php"> <p style="color: aliceblue">LOGOUT</p></a></h2></button>
 <div class="container1">
     <?php echo "<h1 > Welcome ".$_SESSION['username']."  Fill This Form for your Attendance!  </h1>" ?>
     </div>
-    <p style="color:red;text-align:center">NOTE:please fill this form within given time period.</p>
+    <p style="color:black;text-align:center;font-size:20px;text-decoration:underline">NOTE:please fill this form within given time period.</p>
 
 
    
@@ -98,32 +98,32 @@ $con->close();
              <form action="dashboard.php" method="post">
                <div class="log">
                    <div class="logbody">
-                   <label for="name">Name:</label><br>
+                   <label for="name">NAME:</label><br>
                    <input type="text" name="name" id="name" placeholder="Enter your Name" required>
                    </div>
                 <div class="logbody">
-                   <label for="age">Registration No.:</label><br>
+                   <label for="age">REGISTRATION NO.:</label><br>
                    <input type="number" name="registration" id="registration" placeholder="Enter your college registration no." required>
                 </div>
                 <div class="logbody">
-                   <label for="gender">College Roll No.:</label><br>
+                   <label for="gender">COLLEGE ROLL NO.:</label><br>
                    <input type="text" name="roll" id="roll" placeholder="Enter your Roll No." required>
                 </div>
                 <div class="logbody">
-                   <label for="college">College:</label><br>
+                   <label for="college">COLLEGE NAME:</label><br>
                    <input type="text" name="college" id="college" placeholder="Enter your college name" required>
             </div>
             <div class="logbody">
-                   <label for="branch">Branch:</label><br>
+                   <label for="branch">BRANCH:</label><br>
                    <input type="text" name="branch" id="branch" placeholder="Enter your current branch" required>
                 </div>
                 <div class="logbody">
-                   <label for="branch">Subject Name:</label><br>
+                   <label for="branch">SUBJECT NAME:</label><br>
                    <input type="text" name="subject" id="subject" placeholder="Enter Subject Name" required>
                 </div>
             
                   <div class="submit">
-                      <button class="btn">Submit</button>
+                      <button class="btn">SUBMIT</button>
                   </div>
                </div>
               

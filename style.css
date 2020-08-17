@@ -28,8 +28,8 @@ body {
     display: block;
     margin: 20px;
     padding: 15px 20px;
-    background-color: #c6dff0;
-  
+    background-color: #ece7e7;
+    font-size: 20px;
     border: none;
     outline: none;
     font-size: 22px;
@@ -45,7 +45,7 @@ body {
     margin: auto;
     padding: 10px 35px;
     background-color: #e46e0d;
-    color:rgb(95, 61, 73);
+    color: rgb(255, 255, 255);
     border: none;
     font-size: 22px;
     border-radius: 10px;
@@ -87,10 +87,10 @@ body {
 .cover .switch-btn {
     position: absolute;
     bottom: 350px;
-    font-size: 25px;
+    font-size: 30px;
     margin: 40vh auto;
     padding: 10px 55px;
-    background-color: #5fa0e2f3;
+    background-color: #e46e0d;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -191,7 +191,8 @@ body {
  }
 
  .l{
-    background: linear-gradient(to top,#09e9e9, #16a8a8);
+    font-size: 50px;
+    background: linear-gradient(to top, rgb(3, 7, 5), #e90909);
     -webkit-background-clip:text;
 	-webkit-text-fill-color:transparent;
  }
@@ -218,10 +219,10 @@ body {
 .cover .switch-btn {
     position: absolute;
     bottom: 315px;
-    font-size: 25px;
+    font-size: 20px;
     margin: 40vh auto;
     padding: 10px 20px;
-    background-color: #5fa0e2f3;
+    background-color: #e46e0d;
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -294,13 +295,12 @@ body {
         .cover .switch-btn {
             position: absolute;
             bottom: 550px;
-            font-size: 25px;
+            font-size: 15px;
             margin:auto;
             margin-bottom: 10px;
             margin-left: 30px;
-          
             padding: 10px auto;
-            background-color: #5fa0e2f3;
+            background-color: #e46e0d;
             color: #fff;
             border: none;
             border-radius: 10px;
@@ -345,7 +345,7 @@ body {
         }
         
         .form input {
-            min-width: 200px;
+            min-width: 170px;
             display: block;
             margin: 5px;
             padding: 10px auto;
